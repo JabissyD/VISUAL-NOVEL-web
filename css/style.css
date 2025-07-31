@@ -54,7 +54,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 1000px;
     padding: 15px;
 
     font-size: 1.15rem;
@@ -62,7 +62,32 @@ body {
     border: 2px solid rgb(255, 255, 255);
 }
 
+.news-title {
+    width: 200px;
+    margin: 10px;
+    color: #ffffff95;
+    border-radius: 0% 10px 0% 0%;
+    border: 2px solid #322e7470;
+    background: #322e7470;
+}
+
+.news-text {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.128);
+}
+
 .sprite_old__img {
     width: 450px;
-    border: 2px solid rgba(255, 255, 255, 0.304);
+    border: 2px solid rgba(255, 255, 255, 0.128);
+}
+
+.image__container {
+    background: rgba(125, 125, 125, 0.125);
+    grid-template-rows: 80px 80px;
+    margin: 10px;
+}
+
+.chibi-img {
+    width: 450px;
 }
