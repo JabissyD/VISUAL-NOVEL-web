@@ -91,3 +91,12 @@ body {
 .chibi-img {
     width: 450px;
 }
+
+.cards__container {
+    grid-template-rows: 80px 80px 80px;
+    margin: 10px;
+}
+
+.main__img {
+    width: 450px;
+}
