@@ -94,7 +94,7 @@ body {
 
 .cards__container {
     grid-template-rows: 80px 80px 80px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .main__img {
